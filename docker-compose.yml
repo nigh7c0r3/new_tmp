@@ -2,6 +2,8 @@ version: '3'
 
 services:
   php-app:
-    build: ./
+    build: .
     ports:
       - "8888:80"
+    volumes:
+      - ./src:/var/www/html
