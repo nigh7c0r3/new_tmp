@@ -1,6 +1,6 @@
 <?php
 
-header("Content-Security-Policy: default-src 'self'; style-src http://host3.dreamhack.games:13168/secret.php; report-uri https://webhook.site/2b0e8e28-cd46-4434-b0d0-eb7f190b7ed7;");
+header("Content-Security-Policy: style-src http://host3.dreamhack.games:13168/secret.php; report-uri https://webhook.site/2b0e8e28-cd46-4434-b0d0-eb7f190b7ed7;");
 
 
 ?>
