@@ -1,5 +1,7 @@
 <?php
-//header("Content-Security-Policy: default-src 'self'; style-src 'self'; report-uri https://webhook.site/2b0e8e28-cd46-4434-b0d0-eb7f190b7ed7;");
+
+header("Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; report-uri https://webhook.site/2b0e8e28-cd46-4434-b0d0-eb7f190b7ed7;");
+
 ?>
 
 <!DOCTYPE html>
